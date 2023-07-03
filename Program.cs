@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using template_method_pattern.template;
+
+var task = new TransferMoneyTask();
+task.Execute();
+
+Console.ReadLine();
